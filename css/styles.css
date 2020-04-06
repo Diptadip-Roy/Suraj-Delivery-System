@@ -1,0 +1,163 @@
+body{
+text-align: center;
+background-color: #f4f4f4;
+font-family: 'Poppins', sans-serif;
+}
+/*****************************texts*****************************/
+h1{
+  font-weight: lighter;
+  color: #323232;
+}
+h3{
+  color: #ffa41b;
+}
+.subtitle{
+  font-weight: bold;
+}
+.intro{
+  width: 50%;
+  margin: 0.3125rem auto 1.875rem auto;
+  /*margin-bottom: 31.25rem;*/
+}
+.c-me1{
+  color: #66BFBF;
+}
+.c-me2{
+  color: #11999E;
+}
+
+/*****************************sub-containers*****************************/
+
+.Quick-delivery{
+  font-family: 'Baloo Da 2', cursive;
+  border-top-style: solid;
+  border-top-color: red;
+  border-top-width: 5px;
+  background-color: #faf4ff;
+  box-shadow: 0 1.25rem 1.25rem #eae7d9;
+  height: 12.5rem;
+  width:18.75rem;
+  margin:20px auto 30px auto;
+position: relative;
+  border-radius: 10px;
+  /*position: absolute;
+  top: 21.5625rem;
+  left: 13.75rem;*/
+}
+.customer-service{
+  font-family: 'Baloo Da 2', cursive;
+  border-top-style: solid;
+  border-top-color: blue;
+  border-top-width: 5px;
+  background-color: #faf4ff;
+  box-shadow: 0 1.25rem 1.25rem #eae7d9;
+  height: 12.5rem;
+  width:18.75rem;
+  margin:20px auto 30px auto;
+position: relative;
+  border-radius: 10px;
+  /*position: absolute;
+  top: 15rem;
+  left:33.9375rem;*/
+}
+.door-to-door{
+  font-family: 'Baloo Da 2', cursive;
+  border-top-style: solid;
+  border-top-color: #f4e04d;
+  border-top-width: 5px;
+  background-color: #faf4ff;
+  box-shadow: 0 1.25rem 1.25rem #eae7d9;
+  height: 12.5rem;
+  width:18.75rem;
+margin:20px auto 30px auto;
+position: relative;
+  border-radius: 10px;
+  /*position: absolute;
+  left: 33.9375rem;
+  top:29.375rem;*/
+}
+.world{
+  font-family: 'Baloo Da 2', cursive;
+  border-top-style: solid;
+  border-top-color: #00bdaa;
+  border-top-width: 5px;
+  background-color: #faf4ff;
+  box-shadow: 0 1.25rem 1.25rem #eae7d9;
+  height: 12.5rem;
+  width:18.75rem;
+margin:20px auto 30px auto;
+position: relative;
+  border-radius: 10px;
+  /*position: absolute;
+  top: 21.5625rem;
+  right: 11.875rem;*/
+}
+.bottom-container{
+  background-color: #EAF6F6;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  color: #18b0b0;
+  margin: auto 20px auto 20px;
+  padding-top: 30px;
+}
+a:hover{
+  color: #f6d186;
+}
+
+/*****************************Images*****************************/
+.img{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width:15%;
+}
+/*****************************buttons**********************************/
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFAFD !important;
+  font-size: 14px;
+  text-shadow: 2px 1px 0px #97BFDE;
+  box-shadow: 1px 1px 1px #EFEFF9;
+  padding: 13px 26px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+}
+.btn:hover {
+  color: #14396A !important;
+  background: #30E3CB;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+/*********************horizontal rule********************************/
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  color: grey;
+}
+/*****************************containers*****************************/
+/*.whole-container{
+  padding-bottom: 30px;
+}*/
+.last-p{
+  margin:0;
+  padding: 50px;
+  color: #18b0b0;
+}
+.small{
+  font-size: 1rem;
+}
